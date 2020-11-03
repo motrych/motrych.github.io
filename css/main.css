@@ -1,0 +1,48 @@
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+.credit {
+	margin: 20px 0;
+}
+.google>a,.wordpress>a,.linkedin>a{
+display: block;
+float: left;
+background-repeat: no-repeat;
+width: 32px;
+height: 32px;
+margin-right: 5px;
+}
+.google>a {
+	background-image: url('../img/google.png');
+}
+
+.linkedin>a {
+	background-image: url('../img/linkedin.png');
+}
+
+.wordpress>a {
+	background-image: url('../img/wordpress.png');
+}
+#certificates{
+    background-color: #245E9D;
+	color: white;
+}
+#intro{
+padding-top: 70px;
+}
+.phone{
+	margin: 5px;
+	padding: 4px 12px;
+}
+.phone>i{
+	width:14px;
+	height:14px;
+	background-image: url('../img/phone-icon.png');
+	display: inline-block;
+margin-top: 1px;
+line-height: 14px;
+vertical-align: text-top;
+background-repeat: no-repeat;
+}
